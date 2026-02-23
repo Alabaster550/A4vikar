@@ -1,0 +1,42 @@
+@startuml
+
+class Nøglepartnere {
+
+}
+class Nøgleaktiveteter {
+    Udlejning af biler
+    Reperation og pleje af udlejningsbiler
+
+}
+class Nøgleressourcer {
+    Udlejningsbiler
+}
+class Værditilbud {
+    Bil til udlejning
+}
+class Kunderelationer {
+    Personlig betjening
+}
+class Kundesegmenter {
+    B2C Nichemarked for dem som hurtigt og
+    kortvarigt skal bruge en bil
+}
+class Kannaler {
+    Hjemmeside
+    Kundeservice
+}
+class Omkostningstruktur {
+    Reperation og pleje af udlejningsbiler
+    Strøm
+    Løn
+}
+class Indtægtstrømme {
+    Udlejning af biler
+}
+
+Hide circle
+hide methods
+
+
+
+@enduml

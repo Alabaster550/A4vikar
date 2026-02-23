@@ -1,37 +1,36 @@
 @startuml
 
 class Nøglepartnere {
-
+    Vikare
 }
 class Nøgleaktiveteter {
-    Udlejning af biler
-    Reperation og pleje af udlejningsbiler
-
+    Udlejning af vikare
+    
 }
 class Nøgleressourcer {
-    Udlejningsbiler
+    Vikare
 }
 class Værditilbud {
-    Bil til udlejning
+    Når lære ikke kan møde, står en vikar til rådighed
 }
 class Kunderelationer {
     Personlig betjening
 }
 class Kundesegmenter {
-    B2C Nichemarked for dem som hurtigt og
-    kortvarigt skal bruge en bil
+    Niche-Markedet
+    Folkeskoler
 }
 class Kannaler {
-    Hjemmeside
-    Kundeservice
+    Email
+    Tlf
 }
 class Omkostningstruktur {
-    Reperation og pleje af udlejningsbiler
-    Strøm
     Løn
+    Strøm
+    Leje af kontor
 }
 class Indtægtstrømme {
-    Udlejning af biler
+    Udlejning af vikare
 }
 
 Hide circle

@@ -9,3 +9,20 @@ nuværende system:
 
 ønsket løsning:
 * centraliseret IT-system for mindre manuelle fejl
+
+## øvelse 3
+
+Gidsler:
+* Vikare
+
+Grå Eminence:
+* Virksomhedsejer
+
+Eksterne Intersanter:
+* Politiet (Børne-Attest)
+* Folkeskoler
+
+Ressourcepersonale:
+* Medarbejder
+
+

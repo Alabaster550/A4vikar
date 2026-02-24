@@ -1,0 +1,41 @@
+@startuml
+
+class Nøglepartnere {
+    Vikare
+}
+class Nøgleaktiveteter {
+    Udlejning af vikare
+    
+}
+class Nøgleressourcer {
+    Vikare
+}
+class Værditilbud {
+    Når lære ikke kan møde, står en vikar til rådighed
+}
+class Kunderelationer {
+    Personlig betjening
+}
+class Kundesegmenter {
+    Niche-Markedet
+    Folkeskoler
+}
+class Kannaler {
+    Email
+    Tlf
+}
+class Omkostningstruktur {
+    Løn
+    Strøm
+    Leje af kontor
+}
+class Indtægtstrømme {
+    Udlejning af vikare
+}
+
+Hide circle
+hide methods
+
+
+
+@enduml

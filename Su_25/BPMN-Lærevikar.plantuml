@@ -1,0 +1,36 @@
+@startuml
+
+
+|Folkeskole|
+start
+:Ringer;
+
+|Vikar|
+:Modtager bestilling;
+repeat
+:Tjekker om de har Børneattest;
+if (Har børneattest) is (ja) then
+else(nej)
+stop
+endif
+:Tjekker om de underviser i det ønsket fag;
+if (Har de rigtige kompetencer) is (ja) then
+else(nej)
+stop
+endif
+repeat while (Er ledig?) is (nej) not (ja)
+:Booking;
+:Vikar arbejde;
+:Arbejdstimer;
+:Sender faktura;
+
+|Folkeskole|
+-[dashed]->
+:Modtager Faktura;
+:betaler 43kr/time;
+
+|Vikar|
+end
+
+
+@enduml

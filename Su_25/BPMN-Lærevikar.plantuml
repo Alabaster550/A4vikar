@@ -1,0 +1,17 @@
+@startuml
+
+
+
+
+group Lærevikar{
+:Booking;
+:Vikar arbejde;
+:Arbejdstimer;
+:Sender faktura;
+:43kr/time;
+}
+
+
+
+
+@enduml

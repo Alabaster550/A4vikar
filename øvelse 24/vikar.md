@@ -28,11 +28,11 @@ Ressourcepersonale:
 
 ## øvelse 4 Business Case
 
-### Baggrund:
+### Baggrund
 Lærervikaren er en virksomhed som hjælper folkeskoler som mangler lærer, de kan finde og booke vikare for folkeskolen 
 
 
-### Problemstilling:
+### Problemstilling
 Lige nu bruger de et fragmenteret system hvor de bruger flere excel-ark, der sker ofte fejl med registreringer og det er besværligt at få et overblik
 
 ### Scenerier
@@ -49,8 +49,16 @@ Cons:
 
 **1-scenarie:** Et centraliseret IT-system hvor børneattester er valideret og vikarenes ledighed og hvilke fag de undervises i er samlet
 pros:
-Cons:
+* automatisk validaring af attester
+* mindre manuelt arbejde
+* mindre risiko for fejlbooking
+* spare tid
+* sporbarhed
 
+Cons:
+* kost for udvikling eller køb af systemet
+* implementation kan tage tid
+* vikarer skal lære nyt system dersom der er mindre for gunbrit at gøre
 
 **2-scenarie:** Samme som scenarie 0 men der bliver brugt kun i et enkelt excel-ark for at skabe bedre overblik og gemt i et cloud.
 Pros:
@@ -62,3 +70,23 @@ Cons:
 * Stadig begrænset til Excel
 * Stadig manuel hændtering
 * stadig risiko for fejl
+
+### 1-scenariet - det foretrukne scenarie:
+**Formål:**
+formål med scenarie 1 er implementering af et IT-system, som understøtter udlejning af vikare og reducere risiko for fejl.
+
+**Forretningsæssig løsningsbeskrivelse:**
+* samler data om vikarer i et énkelt sted
+* registrerer fag, arbejdstime og tilgængelighed
+* automatisering for validering af børneattester
+
+**KPI'er:**
+* måling af % reduktion af fejlbookinger inden et par måneder
+* tid brugt på håndtering pr booking i minutter
+* forskel på gyldige børneattester (100% validering forhold til før)
+
+**Forretningsmæssige effekter inkl. gevinster:**
+* bedre overblik (data samlet 1 sted)
+* mere professionelt
+* mindre afhængig af Gunbritt
+* tidsbesparelse

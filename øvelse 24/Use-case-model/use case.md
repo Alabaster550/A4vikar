@@ -56,7 +56,7 @@
 
 **UC4 Registrer ny vikar:**
 - Primær aktør: Anton (recruiter)
-- Aktør mål: Registrere arbejdstimer
+- Aktør mål: Oprette ny vikar som bruger i systemet
 - Scenarie:
 1. Anton opretter ny vikar profil
 2. Systemet anmoder om lærerstuderende oplysninger

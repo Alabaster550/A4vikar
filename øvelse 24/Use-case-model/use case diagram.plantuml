@@ -1,0 +1,25 @@
+@startuml
+left to right direction
+actor Folkeskole as f
+actor Gunbritt as g
+actor Vikar as v
+actor Anton as a
+
+package VikarSystem {
+  usecase "Opret booking" as UC1
+  usecase "Registrer booking" as UC2
+  usecase "Opdater vikarprofil" as UC3
+  usecase "Registrer ny vikar" as UC4
+}
+f --> UC1
+g --> UC2
+v --> UC3
+a --> UC4
+@enduml
+
+| Use case: | Navn:|
+| - | - |
+| UC1: | Opret booking |
+| UC2: | Registrer booking |
+| UC3: | Opdater vikarprofil |
+| UC4: | Registrer ny vikar |

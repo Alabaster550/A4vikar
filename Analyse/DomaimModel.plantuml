@@ -1,0 +1,37 @@
+@startuml
+
+class Booking{
+dato
+starttid
+sluttid
+fag
+status
+oprettetTid
+}
+
+class Vikariat{
+dato
+starttid
+sluttid
+status
+}
+
+class Vikar{
+navn
+tlf
+email
+ledighed
+børneattestudløbsdato 
+}
+
+class Faktura{
+fakturadato
+samletbeløb
+timepris
+status
+}
+
+
+hide methods
+hide circle
+@enduml

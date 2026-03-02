@@ -1,0 +1,38 @@
+@startuml
+
+class Vikariat_1 {
+    12.03.2026
+    12:00
+    14:00
+    Gennemføret
+}
+class Vikariat_2 {
+    18.03.2026
+    08:00
+    10:00
+    Gennemføret
+}
+class Vikariat_3 {
+    24.03.2026
+    08:00
+    14:00
+    Annuleret
+}
+
+class Faktura {
+    28.03.2026
+    172
+    43
+    Betalt
+}
+
+hide circle
+hide methods
+
+Faktura -- Vikariat_1
+Faktura -- Vikariat_2
+Faktura -- Vikariat_3
+
+
+
+@enduml

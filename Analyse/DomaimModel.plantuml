@@ -1,5 +1,9 @@
 @startuml
 
+Vikariat "1..*" -- "1" Faktura
+Vikar "1" -- "1..*" Booking
+Vikariat "0..1" -- "1" Booking
+
 class Booking{
 dato
 starttid

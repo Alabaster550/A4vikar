@@ -7,18 +7,18 @@ left to right direction
 
 package View {
     class MainWindow
-    class SubstituteWindow
-    class CreateSubstituteWindow
+    class SubTeacherWindow
+    class CreateSubTeacherWindow
 }
 
 package ViewModel {
     class MainViewModel
-    class SubstituteViewModel
+    class SubTeacherViewModel
 
 }
 
 package Model {
-    class Substitute
+    class SubTeacher
 
 }
 
@@ -26,10 +26,10 @@ package Model {
 View -> ViewModel
 ViewModel -> View
 ViewModel -> Model
- MainViewModel -> SubstituteViewModel
- SubstituteViewModel -> Substitute
- SubstituteWindow -> SubstituteViewModel
- CreateSubstituteWindow -> SubstituteViewModel
+ MainViewModel -> SubTeacherViewModel
+ SubTeacherViewModel -> SubTeacher
+ SubTeacherWindow -> SubTeacherViewModel
+ CreateSubTeacherWindow -> SubTeacherViewModel
 
 
 @enduml

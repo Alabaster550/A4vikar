@@ -1,0 +1,15 @@
+@startuml
+
+Bruger -> system : OpretProfil
+Bruger <-- system : AnmodOplysninger
+
+
+
+Bruger -> system : OplysNavn(navn)
+Bruger <-- system : BekræftBørneattest, udløbsdato
+
+Bruger -> system : IndsætOplysninger(tlf, email, ledighed)
+Bruger -> system : BekræftOplysninger
+Bruger <-- system : RegistrerBruger
+
+@enduml

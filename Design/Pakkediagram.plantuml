@@ -1,0 +1,35 @@
+@startuml 
+
+hide circle
+hide method
+hide attribute
+left to right direction
+
+package View {
+    class MainWindow
+    class SubstituteWindow
+    class CreateSubstituteWindow
+}
+
+package ViewModel {
+    class MainViewModel
+    class SubstituteViewModel
+
+}
+
+package Model {
+    class Substitute
+
+}
+
+
+View -> ViewModel
+ViewModel -> View
+ViewModel -> Model
+ MainViewModel -> SubstituteViewModel
+ SubstituteViewModel -> Substitute
+ SubstituteWindow -> SubstituteViewModel
+ CreateSubstituteWindow -> SubstituteViewModel
+
+
+@enduml
